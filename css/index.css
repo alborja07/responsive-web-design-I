@@ -228,50 +228,7 @@ h6 {
     padding: 5%;
 }
 
-/* @media screen and (max-width: 800px) {
-    .image {
-        display: none;
-    }
-} */
-/* @media screen and (max-width: 600px) { */
-/* .container {
-        margin: 0%;
-    }
-    .container2 {
-        margin: 1% 8%;
-    }
-    nav {
-        display: flex;
-        flex-direction: column-reverse;
-        width: 100%;
-        text-align: center;
-    }
-    nav a {
-        padding: 3%;
-        border: 1px solid gray;
-        width: 100%;
-    }
-    nav a:nth-child(6) {
-        margin: 0%;
-    }
-    .description {
-        display: flex;
-        flex-direction: column;
-        /* align-items: center; */
-/* }
-    .features {
-        margin-bottom: 6%;
-        margin-right: 0; */
-/* } 
-    .descrpition2 {
-        display: flex;
-        flex-direction: column;
-    }
-    .third {
-        width: 100%;
-        margin-top: 5%;
-    }
-} */
+/* media query */
 
 @media (max-width: 800px) {
     .container {
