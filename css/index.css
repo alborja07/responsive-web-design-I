@@ -233,8 +233,8 @@ h6 {
         display: none;
     }
 } */
-@media screen and (max-width: 600px) {
-    /* .container {
+/* @media screen and (max-width: 600px) { */
+/* .container {
         margin: 0%;
     }
     .container2 {
@@ -258,11 +258,11 @@ h6 {
         display: flex;
         flex-direction: column;
         /* align-items: center; */
-    /* }
+/* }
     .features {
         margin-bottom: 6%;
         margin-right: 0; */
-    /* } 
+/* } 
     .descrpition2 {
         display: flex;
         flex-direction: column;
@@ -273,14 +273,26 @@ h6 {
     }
 } */
 
- @media (max-width: 800px) {
-    container {
+@media (max-width: 800px) {
+    .container {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
-    .logo {
-        align-items: flex-start;
+    nav {
+        flex-wrap: wrap;
+    }
+
+    nav a {
+        order: 1;
+    }
+
+    .img-link {
+        display: block;
+        width: 100%;
+        order: 0;
+        padding: 25px;
+        text-align: center;
     }
 
     .image {
@@ -288,22 +300,21 @@ h6 {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     nav {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         justify-content: space-around;
         text-align: center;
     }
-    
-nav a {
-    padding: 3%;
-    border: 1px grey;
-    
-}
 
     nav a {
+        padding: 3%;
+        border-bottom: 1px solid grey;
+        width: 100%;
+        text-decoration: none;
     }
+
     .description {
         display: flex;
         flex-direction: column;
@@ -322,4 +333,4 @@ nav a {
         width: 100%;
         margin-top: 5%;
     }
-} */
+}
